@@ -1,0 +1,23 @@
+library(rsconnect)
+library(dplyr)
+library(ggplot2)
+library(shiny)
+library(reshape2)
+library(tidyverse)
+library(data.table)
+library(mapdata)
+library(ggmap)
+library(maps)
+library(viridis)
+library(DT)
+library(plotly)
+library(gganimate)
+library(gifski)
+library(shinycssloaders)
+
+
+source("text.R")
+source("server.R")
+source("ui.R")
+
+shinyApp(ui = ui, server = server)

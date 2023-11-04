@@ -1,2 +1,3 @@
-# gym-population-analysis
-Takes in a gym dataset from UC Berkeley and analyses it to find least active gym times. Includes data visualizations using shinyapp.
+### UC Berekely Gym Analysis
+
+Fully functional website through Shinyapp that display data visualizations with R and Python.
